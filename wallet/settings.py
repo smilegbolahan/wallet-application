@@ -124,10 +124,10 @@ STATICFILES_DIRS = [
 ]
 
 
-STATIC_ROOT = BASE_DIR / "static"
-
-
-CSRF_TRUSTED_ORIGINS = ['https://installedapp.up.railway.app/', '*.https://installedapp.up.railway.app/', '*']
+CSRF_TRUSTED_ORIGINS = ['https://installedapp.up.railway.app/', 
+                        '*.https://installedapp.up.railway.app/',
+                        'https://installedapp.up.railway.app/alphawallet/'
+                        ]
 
 
 # Default primary key field type
@@ -139,7 +139,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'smileinnovativesolutions@gmail.com'
-EMAIL_HOST_PASSWORD = 'omqxapvsjhumuzhz'
+EMAIL_HOST_PASSWORD = 'oladele14#'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
