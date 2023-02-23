@@ -124,10 +124,7 @@ STATICFILES_DIRS = [
 ]
 
 
-CSRF_TRUSTED_ORIGINS = ['https://installedapp.up.railway.app/', 
-                        '*.https://installedapp.up.railway.app/',
-                        'https://installedapp.up.railway.app/alphawallet/'
-                        ]
+CSRF_TRUSTED_ORIGINS = ['https://*.installedapp.up.railway.app/', 'https://*.yourdomain.com']
 
 
 # Default primary key field type
