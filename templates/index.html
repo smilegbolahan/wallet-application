@@ -1,578 +1,316 @@
 {% load static %}
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <title>Bitcoin World</title>
-
-    <link href="//fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link href="//fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
     <!-- Template CSS -->
     <link rel="stylesheet" href="{% static 'css/style-starter.css' %}">
+</head>
 
-    <style>
-      .container{
-
-        padding:30px;
-        line-height: 4.5px;
-      }
-
-      h1,h2,h3,h4,h5 {
-
-        color:white;
-      }
-
-      p{
-        color: white;
-      }
-
-      .card-title{
-        color: black;
-      }
-
-    </style>
-  </head>
 <body>
-  <button type="button" class="btn btn-primary">Stake</button>
-
-
-<button type="button" class="btn btn-primary" style="float:right;">Unstake</button>
-
-<div class="container">
-  <div style="margin-top:15px">
-    <h2 style="color:white; margin-bottom: 25px;">Organise all your cryptocurrencies wallet easily with this app</h2>
-
-    <p align="center" style="color:white; margin-bottom: 12px;">Easy wallet synchronization</p>
-    
-  </div>
-  <!--
-  <div style="margin-top: 35px">
-    <button type="button" class="btn btn-primary">Go to wallet</button>
-  </div>
-
-  -->
-  <div style="margin-top: 30px;">
-    <h4 style="color: white">Please select a wallet below</h4>
-  
-    </div>
-</div>
-
-
-<div class="card-deck">
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/alphawallet" style="text-decoration:none;">
-      <img class="card-img-top" src="{% static 'images/alphawallet.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Alpha wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-  
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/argentwallet" style="text-decoration:none;">
-        <img class="card-img-top" src="{% static 'images/argent.png' %}" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Argent wallet</h5>
-          
+    <!--/Header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light stroke">
+                <h1><a class="navbar-brand" href="index.html">
+                        Bitcoin <span class="sub-color">World</span>
+                    </a></h1>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                
+                <!-- toggle switch for light and dark theme -->
+                
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
         </div>
-      </a>
-      
-    </div>
-  </a>
-  
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/atomic" style="text-decoration:none;">
-        <img class="card-img-top" src="{% static 'images/atomic.png' %}" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Atomic wallet</h5>
-          
-        
+    </header>
+    <!--//Header-->
+    <!--/Banner-Start-->
+    <section class="banner-19">
+        <div class="banner-layer">
+            <div class="main-content-top">
+                <div class="container">
+                    <div class="main-content">
+                        <div class="w3lbanner-left">
+                            <!-- if logo is image enable this   
+                        <a class="logo" href="index.html">
+                            <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+                        </a> -->
+                            <h6>Organise all your cryptocurrencies wallet easily with this app</h6>
+                            <h4>Easy wallet synchronization</h4>
+
+                            <a href="#grids1" class="btn btn-style btn-primary mt-md-5 mt-4">View wallet</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
-      </a>
-    </div>
-  
-  
-</div>
-
-<br>
-
-<div class="card-deck">
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/atwallet" style="text-decoration:none;">
-      <img class="card-img-top" src="{% static 'images/atwallet.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Atwallet wallet</h5>
-        
-      </div>
-    </a>
-      
-    </div>
-  
-  
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/coin98" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/coin98.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Coin98 wallet</h5>
-        
-      </div>
-     </a>
-    </div>
-  </a>
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/coinbase" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/coinbase.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Coinbase wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-  
-</div>
-
-<br>
-
-<div class="card-deck">
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/coinomi" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/coinomi.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Coinomi wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/crypto" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/crypto.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Crypto wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/eidoo" style="text-decoration:none">
-      <img class="card-img-top" src="{% static 'images/eidoo.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Eidoo wallet</h5>
-        
-      </div>
-     </a>
-    </div>
-  
-  
-</div>
-
-<br>
-
-<div class="card-deck">
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/exodus" style="text-decoration:none;">
-      <img class="card-img-top" src="{% static 'images/exodus.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Exodus wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/gridplus" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/gridplus.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Gridplus wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
- 
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/huobi" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/huobi.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Huobi wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
- 
-</div>
-
-
-<br>
-
-<div class="card-deck">
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/ledger" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/ledger.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Ledger wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-  
-
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/infinitowallet" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/infinito.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Infinito wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/metamask" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/metamask.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Metamask wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-  
-</div>
-
-<br>
-
-<div class="card-deck">
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/mew" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/mew.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Mew wallet</h5>
-        
-      </div>
-      </a>
-    </div>
-  
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/midas" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/midas.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Midas wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/moriX" style="text-decoration:none">
-      <img class="card-img-top" src="{% static 'images/morixwallet.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Morix wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-</div>
-
-<br>
-
-<div class="card-deck">
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/mykey" style="text-decoration:none;">
-      <img class="card-img-top" src="{% static 'images/mykey.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Mykey wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/nash" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/nash.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Nash wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/onto" style="text-decoration:none;">
-      <img class="card-img-top" src="{% static 'images/onto.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Onto wallet</h5>
-        
-      </div>
-    </a>
-    </div>
- 
-  
-</div>
-
-
-<br>
-
-<div class="card-deck">
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/ownbit" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/ownbit.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Ownbit wallet</h5>
-        
-      </div>
-    </a>
-    </div>
- 
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/peakdefi" style="text-decoration:none;">
-      <img class="card-img-top" src="{% static 'images/peakdefi.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Peakdefi wallet</h5>
-        
-      </div>
-    </a>    
-    </div>
-  
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/pillar" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/pillar.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Pillar wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-  
-</div>
-
-<br>
-
-<div class="card-deck">
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/rainbow" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/rainbow.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Rainbow wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/safepal" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/safepal.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Safepal wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/sparkpoint" style="text-decoration:none">
-      <img class="card-img-top" src="{% static 'images/sparkpoint.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Sparkpoint wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  </a>
-  
-</div>
-
-<br>
-
-<div class="card-deck">
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/spatium" style="text-decoration: none">
-      <img class="card-img-top" src="{% static 'images/spatium.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Spatium wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/swft" style="text-decoration:none;">
-      <img class="card-img-top" src="{% static 'images/swft.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Swft wallet</h5>
-      </a>
-      </div>
-      
-    </div>
-  
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/tokenpocket" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/tokenpocket.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Token pocket wallet</h5>
-        
-      </div>
-      </a>
-    </div>
-  
-  
-</div>
-
-
-<br>
-
-<div class="card-deck">
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/tronlink" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/tron.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Tron wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="/tronlink" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/tronlink.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Tronlink wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-  
-    <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-      <a href="trust" style="text-decoration: none;">
-      <img class="card-img-top" src="{% static 'images/trust.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Trust wallet</h5>
-        
-      </div>
-    </a>
-    </div>
-  
-  
-</div>
-
-<br>
-
-<div class="card-deck">
-  
-  <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-    <a href="/unstoppable" style="text-decoration:none">
-      <img class="card-img-top" src="{% static 'images/unstoppable.png' %}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Unstoppable wallet</h5>
-        
-      </div>
-    </a>
-  </div>
-  <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-   <a href="/vision" style="text-decoration: none">
-    <img class="card-img-top" src="{% static 'images/vision.png' %}" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Vision wallet</h5>
-      
-    </div>
-   </a>
+    </section>
+    <!--//Banner-End-->
     
-  </div>
-  <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-    <a href="/walleth" style="text-decoration:none">
-      <img class="card-img-top" src="{% static 'images/walleth.png' %}" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Walleth wallet</h5>
-      
-    </div>
-    </a>
-    
-    
-  </div>
-</div>
-
+    <!--/w3l-grids-3hny-->
+    <section class="w3l-grids-3hny py-5" id="grids1">
+        <div class="container py-lg-5 py-md-3">
+            <div class="wthree-header-section text-center">
+                
+                <h3 class="title-w3l mb-4">Please select a wallet</h3>
+            </div>
+            <div class="grids-of-3 row text-center">
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <div class="grids3-info" style="background-color: #ddd;">
+                        <a href="/metamask" class="d-block zoom"><img src="{% static 'images/metamask.png' %}" alt="" class="img-fluid radius-image"></a>
+                        <div class="grids-of-3-saas-info">
+                            <h5><a href="#" class="title" style="color:white; margin-top:5px">Metamask</a></h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <div class="grids3-info">
+                        <a href="/trust" class="d-block zoom"><img src="{% static 'images/trust.png' %}" alt="" class="img-fluid radius-image"></a>
+                        <div class="grids-of-3-saas-info">
+                            <h5><a href="#" class="title" style="color:white; margin-top:5px">Trust wallet</a></h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <div class="grids3-info" style="background-color: #ddd;">
+                        <a href="/coinbase" class="d-block zoom"><img src="{% static 'images/coinbase.png' %}" alt="" class="img-fluid radius-image"></a>
+                        <div class="grids-of-3-saas-info">
+                            <h5><a href="#" class="title" style="color:white; margin-top:5px">Coinbase</a></h5>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
 <br>
 
-<div class="card-deck">
-  <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-   <a href="/walletio" style="text-decoration:none">
-    <img class="card-img-top" src="{% static 'images/walletio.png' %}" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Walletio wallet</h5>
-      
-    </div>
-    </a>
-    
-  </div>
-  <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-    <a href="/walletio" style="text-decoration:none">
-    <img class="card-img-top" src="{% static 'images/xdc.png' %}" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Xdc wallet</h5>
-      
-    </div>
-    </a>
-  </div>
-  <div class="card" style="background-color: #ddd; border:2px solid #718096;">
-    <a href="/zelcore" style="text-decoration: none">
-      <img class="card-img-top" src="{% static 'images/zelcore.png' %}" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Zelcore wallet</h5>
-      
-    </div>
-    </a>
-    
-    
-  </div>
-</div>
+            <div class="grids-of-3 row text-center">
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <div class="grids3-info" style="background-color: #ddd;">
+                        <a href="/alphawallet" class="d-block zoom"><img src="{% static 'images/alphawallet.png' %}" alt="" class="img-fluid radius-image"></a>
+                        <div class="grids-of-3-saas-info">
+                            <h5><a href="#" class="title" style="color:white; margin-top:5px">Alpha wallet</a></h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <div class="grids3-info" style="background-color: #ddd;">
+                        <a href="/tokenpocket" class="d-block zoom"><img src="{% static 'images/tokenpocket.png' %}" alt="" class="img-fluid radius-image"></a>
+                        <div class="grids-of-3-saas-info">
+                            <h5><a href="#" class="title" style="color:white; margin-top:5px">Token pocket</a></h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <div class="grids3-info" style="background-color: #ddd;">
+                        <a href="/unstoppable" class="d-block zoom"><img src="{% static 'images/unstoppable.png' %}" alt="" class="img-fluid radius-image"></a>
+                        <div class="grids-of-3-saas-info">
+                            <h5><a href="#" class="title" style="color:white; margin-top:5px">Unstoppable</a></h5>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-<hr/>
+        
+    </section>
+
+
+  <!--/w3l-grids-3hny-->
+  <section class="w3l-grids-3hny py-5" id="grids1">
+    <div class="container py-lg-5 py-md-3">
+        
+        <div class="grids-of-3 row text-center">
+            <div class="col-lg-4 col-md-6 mt-5">
+                <div class="grids3-info" style="background-color: #ddd;">
+                    <a href="/argent" class="d-block zoom"><img src="{% static 'images/argent.png' %}" alt="" class="img-fluid radius-image"></a>
+                    <div class="grids-of-3-saas-info">
+                        <h5><a href="#" class="title" style="color:white; margin-top:5px">Argent</a></h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5">
+                <div class="grids3-info">
+                    <a href="/trust" class="d-block zoom"><img src="{% static 'images/atomic.png' %}" alt="" class="img-fluid radius-image"></a>
+                    <div class="grids-of-3-saas-info">
+                        <h5><a href="#" class="title" style="color:white; margin-top:15px">Atomic wallet</a></h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5">
+                <div class="grids3-info" style="background-color: #ddd;">
+                    <a href="/coinbase" class="d-block zoom"><img src="{% static 'images/atwallet.png' %}" alt="" class="img-fluid radius-image"></a>
+                    <div class="grids-of-3-saas-info">
+                        <h5><a href="#" class="title" style="color:white; margin-top:5px">Atwallet</a></h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+<br>
+
+        <div class="grids-of-3 row text-center">
+            <div class="col-lg-4 col-md-6 mt-5">
+                <div class="grids3-info" style="background-color: #ddd;">
+                    <a href="/exodus" class="d-block zoom"><img src="{% static 'images/exodus.png' %}" alt="" class="img-fluid radius-image"></a>
+                    <div class="grids-of-3-saas-info">
+                        <h5><a href="#" class="title" style="color:white; margin-top:5px">Exodus</a></h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5">
+                <div class="grids3-info" style="background-color: #ddd;">
+                    <a href="/infinito" class="d-block zoom"><img src="{% static 'images/infinito.png' %}" alt="" class="img-fluid radius-image"></a>
+                    <div class="grids-of-3-saas-info">
+                        <h5><a href="#" class="title" style="color:white; margin-top:15px">Infinito</a></h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5">
+                <div class="grids3-info" style="background-color: #ddd;">
+                    <a href="/midas" class="d-block zoom"><img src="{% static 'images/midas.png' %}" alt="" class="img-fluid radius-image"></a>
+                    <div class="grids-of-3-saas-info">
+                        <h5><a href="# " class="title" style="color:white; margin-top:5px">Midas</a></h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+</section>
+
+    <br>
+    
+   
+    <!--/footer-->
+    <footer class="w3l-footer-29-main" style="margin-top:25px">
+        <div class="footer-29-w3l py-5">
+            <div class="container pt-md-5">
+                <div class="w3l-footer-text-style">
+                    <div class="footer-list-cont d-sm-flex align-items-center justify-content-between mb-5">
+
+                        <h2 class="w3logo"><a class="navbar-brand" href="index.html">
+                                Bitcoin <span class="sub-color">World</span>
+                            </a></h2>
+                        <div class="main-social-footer-29">
+                            <ul>
+                                <li class="w3follow mt-sm-0 mt-4">Follows On : </li>
+                                <li><a href="#facebook" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#twitter" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#instagram" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#linkedin" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- copyright -->
+                <div class="w3l-copyright text-center mt-lg-5 mt-sm-4 pt-md-4 pt-3">
+                    <p class="copy-footer-29">© 2023 Bitcoin World. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+ <!-- Js scripts -->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fas fa-long-arrow-alt-up" aria-hidden="true"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+    <!-- //move top -->
+
+    <!-- Template JavaScript -->
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'assets/js/theme-change.js' %}"></script>
+    <script src="{% static 'js/circles.js' %}"></script>
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function() {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function() {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function() {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function() {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function() {
+            $('.navbar-toggler').click(function() {
+                $('body').toggleClass('noscroll');
+            })
+        });
+
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+    <!-- //bootstrap -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
 
 </body>
 
